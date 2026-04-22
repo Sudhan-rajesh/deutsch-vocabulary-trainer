@@ -1,7 +1,18 @@
-from functions.menu import show_menu
+def show_menu():
+    while True:
+        print("Vocabulary Trainer")
+        print("Press 1 to add new word")
+        print("Press 2 to practice vocabulary")
+        print("Press 3 to quit")
 
-def main():
-    show_menu()
+        choice = int(input("Enter your choice (1-3): "))
 
-if __name__ == "__main__":
-    main()
+        if choice == 1:
+            ...
+        elif choice == 2:
+            ...
+        elif choice == 3:
+            ...
+        else:
+            print("Invalid choice, Please try again")
+        
