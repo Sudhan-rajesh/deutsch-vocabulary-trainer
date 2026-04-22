@@ -23,7 +23,6 @@ It is designed as a beginner-friendly Python project with a clean modular struct
 - 🧱 Modular code structure (separated logic)
 
 ---
-
 ## 🏗️ Project Structure
 deutsch-vocabulary-trainer/
 │
@@ -40,7 +39,6 @@ deutsch-vocabulary-trainer/
 │ └── words.csv # Stores vocabulary data
 │
 └── README.md
-
 ---
 
 ## ▶️ How to Run
