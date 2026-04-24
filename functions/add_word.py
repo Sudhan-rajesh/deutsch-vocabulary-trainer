@@ -1,6 +1,7 @@
+import csv
+
 def pressed1():
 
-    import csv
     english = input("Enter english word: ")
     german = input("Enter the german translation: ")
 

@@ -1,4 +1,5 @@
 from .add_word import pressed1
+from .practice import pressed2
 
 def show_menu():
     while True:
@@ -13,7 +14,7 @@ def show_menu():
         if choice == 1:
             pressed1()
         elif choice == 2:
-            ...
+            pressed2()
         elif choice == 3:
             ...
         elif choice == 4:
