@@ -1,5 +1,6 @@
 from .add_word import pressed1
 from .practice import pressed2
+from .show_list import pressed3
 
 def show_menu():
     while True:
@@ -16,7 +17,7 @@ def show_menu():
         elif choice == 2:
             pressed2()
         elif choice == 3:
-            ...
+            pressed3()
         elif choice == 4:
             print("Auf Wiedersehen")
             break
